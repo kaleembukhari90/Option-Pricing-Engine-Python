@@ -18,7 +18,7 @@ $$P = Ke^{-rT}N(-d_2) - S_0N(-d_1)$$
 <b> Note </b>: Formulae given below are just for Call Options.
 
 $$Delta (\Delta C) = \frac{\partial C}{\partial S} = N(d_1)$$
-$$ Gamma(\Gamma C) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta C}{\partial S} = \frac{n(d_1)}{S_0 \sigma \sqrt{T}}$$
+$$Gamma(\Gamma C) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta C}{\partial S} = \frac{n(d_1)}{S_0 \sigma \sqrt{T}}$$
 $$Vega C = \frac{\partial C}{\partial \sigma} = S_0\sqrt{T}n(d_1)$$
 $$Rho(\rho C) = \frac{\partial C}{\partial r} = Ke^{-rT}TN(d_2)$$
 $$Theta(\theta C) = \frac{\partial C}{\partial T} = S_0rN(d_1) - Ke^{-rT}rN(d2) - S_0\frac{\sigma}{2\sqrt T}n(d_1)$$
