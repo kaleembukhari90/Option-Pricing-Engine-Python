@@ -18,9 +18,13 @@ $$P = Ke^{-rT}N(-d_2) - S_0N(-d_1)$$
 <b> Note </b>: Formulae given below are just for Call Options.
 
 $$Delta (\Delta C) = \frac{\partial C}{\partial S} = N(d_1)$$
+
 $$Gamma(\Gamma C) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta C}{\partial S} = \frac{n(d_1)}{S_0 \sigma \sqrt{T}}$$
+
 $$Vega C = \frac{\partial C}{\partial \sigma} = S_0\sqrt{T}n(d_1)$$
+
 $$Rho(\rho C) = \frac{\partial C}{\partial r} = Ke^{-rT}TN(d_2)$$
+
 $$Theta(\theta C) = \frac{\partial C}{\partial T} = S_0rN(d_1) - Ke^{-rT}rN(d2) - S_0\frac{\sigma}{2\sqrt T}n(d_1)$$
 
 
@@ -39,9 +43,13 @@ $$P_{AON} = S_0N(-d_1)$$
 <b> Note </b>: Formulae given below are just for Call Options.
 
 $$Delta (\Delta C_{AON}) = \frac{\partial C}{\partial S} = \frac{n(d_1)}{\sigma \sqrt T} + N(d_1)$$
+
 $$Gamma(\Gamma C_{AON}) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta C}{\partial S} = -\frac{n(d_1)d_2}{S_0\sigma^2T}$$
+
 $$Vega (C_{AON}) = \frac{\partial C}{\partial \sigma} = -\frac{S_0d_2n(d_1)}{\sigma}$$
+
 $$Rho(\rho C_{AON}) = \frac{\partial C}{\partial r} = \frac{S_0\sqrt T n(d_1)}{\sigma}$$
+
 $$Theta(\theta C_{AON}) = \frac{\partial C}{\partial T} = S_0rN(d_1) - Ke^{-rT}rN(d2) - S_0\frac{\sigma}{2\sqrt T}n(d_1)$$
 
 
@@ -59,9 +67,13 @@ $$P_{CON} = e^{-rT}N(-d_2)$$
 <b> Note </b>: Formulae given below are just for Call Options.
 
 $$Delta (\Delta C_{CON}) = \frac{\partial C}{\partial S} = \frac{e^{-rT}n(d_2)}{S_0\sigma \sqrt T}$$
+
 $$Gamma(\Gamma C_{CON}) = \frac{\partial^2 C}{\partial S^2} = \frac{\partial \Delta C}{\partial S} = -\frac{e^{-rT}n(d_2)d_1}{S_0^2\sigma^2T}$$
+
 $$Vega (C_{CON}) = \frac{\partial C}{\partial \sigma} = -\frac{e^{-rT}d_1n(d_2)}{\sigma}$$
+
 $$Rho(\rho C_{CON}) = \frac{\partial C}{\partial r} = e^{-rT}\left(\frac{\sqrt T n(d_2)}{\sigma} - TN(d_2)\right)$$
+
 $$Theta(\theta C_{CON}) = \frac{\partial C}{\partial T} = -re^{-rT}N(d_2) + e^{-rT}n(d_2)\frac{\partial d_2}{\partial T}$$
 
 
